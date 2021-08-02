@@ -1,0 +1,38 @@
+.searchbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+button {
+    font-family: 'Heebo', sans-serif;
+    background-color: mediumturquoise;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+
+input {
+    width: 150px;
+    font-family: 'Heebo', sans-serif;
+    margin-right: 2px;
+    border: 1px solid mediumturquoise;
+    padding: 4px;
+    border-radius: 4px;
+}

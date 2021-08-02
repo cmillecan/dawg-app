@@ -1,0 +1,35 @@
+#root, html, body {
+    background-color: antiquewhite;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: orangered;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    color: mediumturquoise;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+}

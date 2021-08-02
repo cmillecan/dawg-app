@@ -1,0 +1,21 @@
+.all-breeds-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-display {
+    height: 650px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #bababa;
+}
+
+.breeds-list ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+}
